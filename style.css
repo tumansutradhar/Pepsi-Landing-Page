@@ -43,16 +43,10 @@ body {
 
 /* hero section start */
 
-.content {
+.detail{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
-.right {
-    text-align: right;
-}
-
-
 
 /* hero section end */
