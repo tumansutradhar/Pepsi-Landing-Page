@@ -99,6 +99,10 @@
 
 /* card start */
 
+.card{
+    height: 700px;
+}
+
 .cardsection{
     display: flex;
     justify-content: center;
@@ -106,8 +110,78 @@
     gap: 50px;
 }
 
-.cardsection .card1{
-    
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+}
+
+.card1 img{
+    width: 200px;
 }
 
 /* card end */
+
+
+
+/*  */
+
+.b{
+    display: flex;
+    gap: 20px;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cd{
+    width: 300px;
+    height: 100px;
+    background: #000;
+    border-radius: 10px;
+}
+
+.ce{
+    width: 300px;
+    height: 100px;
+    background: #ff0000;
+    border-radius: 10px;
+}
+
+.d{
+    width: 200px;
+    height: 220px;
+    background: #000;
+    border-radius: 10px;
+}
+
+.e{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ef{
+    width: 300px;
+    height: 100px;
+    background: #000;
+    border-radius: 10px;
+}
+
+.eg{
+    width: 300px;
+    height: 100px;
+    background: #c22626;
+    border-radius: 10px;
+}
+
+
+
+/*  */
