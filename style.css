@@ -96,3 +96,18 @@
 }
 
 /* hero section end */
+
+/* card start */
+
+.cardsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.cardsection .card1{
+    
+}
+
+/* card end */
