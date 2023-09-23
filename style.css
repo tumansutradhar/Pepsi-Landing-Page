@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato&family=Oswald:wght@600&family=Poppins:wght@500&family=Roboto+Condensed:wght@400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Anton&family=Grand+Hotel&family=Oswald:wght@300&family=Lato&family=Oswald:wght@600&family=Poppins:wght@500&family=Roboto+Condensed:wght@400&family=Ubuntu&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
-/*  */
+/* navbar start */
 
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 400px;
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(197, 187, 153);
+    padding: 20px 0;
 }
 
 .navbar img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 .list {
@@ -31,4 +33,66 @@
     gap: 50px;
 }
 
-/*  */
+/* navbar end */
+
+/* hero section start */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 187, 153);
+    height: 500px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 135px;
+}
+
+.content .txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    font-family: 'Anton', sans-serif;
+    color: #ce6c42;
+}
+
+.content img {
+    width: 165px;
+    transform: rotate(345deg);
+    filter: drop-shadow(5mm 10mm 25mm rgb(0, 0, 0));
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
+    font-size: 2rem;
+}
+
+.txthead {
+    font-size: 5.5rem;
+    font-family: 'Grand Hotel', cursive;
+    color: #1c2b4e;
+}
+
+.txtdetail {
+    text-align: end;
+    line-height: 1.5;
+    font-family: 'Oswald', sans-serif;
+}
+
+.detail button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.15rem;
+}
+
+/* hero section end */
