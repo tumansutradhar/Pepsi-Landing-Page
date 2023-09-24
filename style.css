@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Anton&family=Grand+Hotel&family=Oswald:wght@300&family=Lato&family=Oswald:wght@600&family=Mooli&family=Playfair+Display:wght@500&family=Croissant+One&family=Poppins:wght@500&family=Roboto+Condensed:wght@400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Anton&family=Bebas+Neue&family=Grand+Hotel&family=Oswald:wght@300&family=Dancing+Script:wght@700&family=Lato&family=Oswald:wght@600&family=DM+Serif+Display&family=Mooli&family=Playfair+Display:wght@500&family=Croissant+One&family=Poppins:wght@500&family=Red+Hat+Display:wght@900&family=Roboto+Condensed:wght@400&family=Ubuntu&display=swap');
 
 * {
     margin: 0;
@@ -181,22 +181,66 @@
     gap: 20px;
 }
 
-.foodbox{
-    overflow: hidden;
-}
-
 .box img{
     width: 294px;
     transition: .3s;
+    border-radius: 10px;
 }
 
 .box img:hover{
-    transform: scale(1.3) rotate(15deg);
+    transform: scale(1.13);
+    transition: .3s;
 }
 
 /* box end */
 
-/*  */
+/* 2nd box start */
 
+.newbox{
+    height: 400px;
+    background-color: #1d2b4f;
+}
 
-/*  */
+.newbox .box2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textbox h3{
+    font-size: 4.5rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.textbox button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.15rem;
+}
+
+.textbox p{
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-family: 'DM Serif Display', serif;
+}
+
+.imgbox{
+    width: 376px;
+    height: 454px;
+}
+
+.imgbox .img1{
+    transform: rotate(15deg);
+    margin: 0 0 75px 0;
+    filter: drop-shadow(-2mm -2mm 25mm rgb(0, 0, 0));
+}
+
+.imgbox .img2{
+    transform: rotate(345deg);
+    margin: 180px 0 0 0;
+    filter: drop-shadow(-1mm 1mm 30mm rgb(0, 0, 0));
+}
+
+/* 2nd box end */
