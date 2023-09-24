@@ -28,9 +28,30 @@
     gap: 50px;
 }
 
+.list li{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.list li:hover{
+    color: #ce6c42;
+    transform: scale(1.25);
+    transition: .3s;
+}
+
 .icon {
     display: flex;
     gap: 50px;
+}
+
+.icon i{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.icon i:hover{
+    transform: scale(1.25);
+    transition: .3s;
 }
 
 /* navbar end */
@@ -93,6 +114,14 @@
     border: none;
     border-radius: 10px;
     font-size: 1.15rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.detail button:hover{
+    background-color: #ce6c42;
+    color: white;
+    transition: .5s;
 }
 
 /* hero section end */
@@ -138,6 +167,7 @@
     height: 550px;
     gap: 25px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .card1:hover {
@@ -166,6 +196,14 @@
     border: none;
     border-radius: 10px;
     font-size: 1.15rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card1 button:hover{
+    background-color: rgba(0, 0, 0, 0.50);
+    color: rgb(255, 255, 255);
+    transition: .5s;
 }
 
 /* card end */
@@ -183,8 +221,9 @@
 
 .box img {
     width: 294px;
-    transition: .3s;
     border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .box img:hover {
@@ -220,6 +259,15 @@
     border: none;
     border-radius: 10px;
     font-size: 1.15rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.textbox button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: .3s;
 }
 
 .textbox p {
