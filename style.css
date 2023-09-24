@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Anton&family=Grand+Hotel&family=Oswald:wght@300&family=Lato&family=Oswald:wght@600&family=Poppins:wght@500&family=Roboto+Condensed:wght@400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Anton&family=Grand+Hotel&family=Oswald:wght@300&family=Lato&family=Oswald:wght@600&family=Mooli&family=Playfair+Display:wght@500&family=Croissant+One&family=Poppins:wght@500&family=Roboto+Condensed:wght@400&family=Ubuntu&display=swap');
 
 * {
     margin: 0;
@@ -101,13 +101,31 @@
 
 .card{
     height: 700px;
+    background: rgb(197, 20, 47);
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0 0 0;
+}
+
+.cardhead{
+    font-size: 2.5rem;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Mooli', sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255,0.5);
 }
 
 .cardsection{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 75px;
 }
 
 .card1{
@@ -118,10 +136,33 @@
     text-align: center;
     width: 300px;
     height: 550px;
+    gap: 25px;
 }
 
 .card1 img{
-    width: 200px;
+    width: 180px;
+    filter: drop-shadow(5mm 10mm 25mm rgb(0, 0, 0));
+}
+
+.cardtxt h3{
+    font-size: 1.25rem;
+    font-family: 'Croissant One', cursive;
+    color: rgb(255 255 255 / 60%);
+}
+
+.cardtxt p{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card1 button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
 }
 
 /* card end */
