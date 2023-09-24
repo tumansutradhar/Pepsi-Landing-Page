@@ -173,72 +173,29 @@
 /* box start */
 
 .onebox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
+    height: 800px;
 }
 
-.box {
+.box{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    height: 338px;
     gap: 20px;
 }
 
-.box1 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.foodbox{
+    overflow: hidden;
 }
 
-.box1 p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    width: 600px;
-    height: 150px;
-    background-color: #fce1a2;
-    border-radius: 20px;
+.box img{
+    width: 294px;
+    transition: .3s;
 }
 
-.box1 img {
-    width: 600px;
-    border-radius: 20px;
-}
-
-.box2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    height: 620px;
-    background-color: #fe867a;
-    border-radius: 20px;
-}
-
-.box3{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.box3 img {
-    width: 600px;
-    border-radius: 20px;
-}
-
-.box3 p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 600px;
-    height: 150px;
-    background-color: #c5ebff;
-    border-radius: 20px;
+.box img:hover{
+    transform: scale(1.3) rotate(15deg);
 }
 
 /* box end */
