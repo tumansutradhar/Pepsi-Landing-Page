@@ -307,6 +307,7 @@ footer {
     position: relative;
     background-color: rgb(255, 255, 255);
     gap: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .footericon {
